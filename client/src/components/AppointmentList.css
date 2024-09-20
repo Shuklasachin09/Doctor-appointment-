@@ -1,0 +1,35 @@
+.appointment-list {
+    list-style: none; /* remove bullet points */
+    padding: 0; /* remove default padding */
+    margin: 20px; /* add some margin for better spacing */
+    font-size: 18px; /* adjust font size to your liking */
+  }
+  
+  .appointment-list li {
+    background-color: #f7f7f7; /* light gray background */
+    padding: 10px; /* add some padding for better readability */
+    border-bottom: 1px solid #ddd; /* add a bottom border */
+  }
+  
+  .appointment-list li:hover {
+    background-color: #eee; /* light gray hover effect */
+    cursor: pointer; /* change cursor to a pointer on hover */
+  }
+  
+  .appointment-list li:last-child {
+    border-bottom: none; /* remove bottom border from last item */
+  }
+  .btn{
+    border-radius: 10%;
+    height: 25px;
+    width: 50px;
+    font-size: 12px;
+    color: white;
+    background-color:dodgerblue;
+}
+.list{
+display:flex;
+align-items:center;
+justify-content: space-between;
+}
+

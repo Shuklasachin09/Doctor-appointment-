@@ -1,0 +1,30 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1.1em;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
